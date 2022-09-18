@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-travis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev" : "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theshdb"
+  },
+  "author": "theshdb",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
